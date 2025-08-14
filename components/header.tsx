@@ -23,12 +23,6 @@ export default function Header() {
               WHAT WE DO
             </Link>
             <Link
-              href="#media-centre"
-              className="text-sm tracking-wide text-gray-700 hover:text-gray-900 transition-colors"
-            >
-              MEDIA CENTRE
-            </Link>
-            <Link
               href="#contact"
               className="text-sm tracking-wide border border-gray-800 px-6 py-2 hover:bg-gray-800 hover:text-white transition-colors"
             >
