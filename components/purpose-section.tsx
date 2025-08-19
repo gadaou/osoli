@@ -21,8 +21,8 @@ export default function PurposeSection() {
 
           <div className="relative order-2">
             <img
-              src="/architectural-pattern.png"
-              alt="Architectural Pattern"
+              src="/dubai.jpg"
+              alt="Dubai Skyline"
               className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover rounded-lg"
             />
           </div>

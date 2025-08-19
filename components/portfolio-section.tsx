@@ -30,7 +30,7 @@ export default function PortfolioSection() {
     },
     {
       title: "STRATEGIC INVESTMENTS",
-      image: "/bw-strategic-investments.png",
+      image: "/bw-private-markets.png",
       colorImage: "/colorful-strategic-investments.png",
     },
   ]

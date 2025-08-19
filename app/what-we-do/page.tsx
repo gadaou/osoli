@@ -4,7 +4,7 @@ import Footer from "@/components/footer"
 export default function WhatWeDoPage() {
   return (
     <main className="min-h-screen">
-      <Header />
+      <Header alwaysFilled={true} />
 
       {/* Hero Section */}
       <section className="pt-32 pb-24 bg-white">

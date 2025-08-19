@@ -1,10 +1,11 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import TeamMember from "@/components/team-member"
 
 export default function WhoWeArePage() {
   return (
     <main className="min-h-screen">
-      <Header />
+      <Header alwaysFilled={true} />
 
       {/* Hero Section */}
       <section className="pt-32 pb-24 bg-white">
@@ -52,25 +53,51 @@ export default function WhoWeArePage() {
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl font-light tracking-wider text-gray-900 mb-16">OUR VALUES</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div className="space-y-4">
-              <h3 className="text-xl font-medium text-gray-900">EXCELLENCE</h3>
-              <p className="text-gray-700 leading-relaxed">
+            <div className="space-y-4 p-8 rounded-lg" style={{ backgroundColor: '#B17A50' }}>
+              <h3 className="text-xl font-medium text-white">EXCELLENCE</h3>
+              <p className="text-white/90 leading-relaxed">
                 We pursue the highest standards in everything we do, from investment selection to partnership
                 management.
               </p>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-xl font-medium text-gray-900">INNOVATION</h3>
-              <p className="text-gray-700 leading-relaxed">
+            <div className="space-y-4 p-8 rounded-lg" style={{ backgroundColor: '#B17A50' }}>
+              <h3 className="text-xl font-medium text-white">INNOVATION</h3>
+              <p className="text-white/90 leading-relaxed">
                 We embrace forward-thinking approaches and cutting-edge solutions to create extraordinary value.
               </p>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-xl font-medium text-gray-900">INTEGRITY</h3>
-              <p className="text-gray-700 leading-relaxed">
+            <div className="space-y-4 p-8 rounded-lg" style={{ backgroundColor: '#B17A50' }}>
+              <h3 className="text-xl font-medium text-white">INTEGRITY</h3>
+              <p className="text-white/90 leading-relaxed">
                 We build trust through transparency, ethical practices, and unwavering commitment to our principles.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-3xl font-light tracking-wider text-gray-900 mb-16">OUR LEADERSHIP</h2>
+          
+          <div className="space-y-24">
+            <TeamMember
+              quote="at osoli, we invest in Dubai's development story with immense pride. Our relentless pursuit of excellence and innovation not only drives our success but also contributes to the vibrant, dynamic evolution of this extraordinary city."
+              name="Abdulla Binhabtoor"
+              title="Chief Executive Officer"
+              imageSrc="/placeholder-user.jpg"
+              imageAlt="Abdulla Binhabtoor - Chief Executive Officer"
+            />
+            
+            <TeamMember
+              quote="We believe in the power of strategic partnerships and long-term vision. Every investment we make is carefully crafted to not only deliver exceptional returns but also to build a legacy that future generations will be proud of."
+              name="Sarah Al Mansouri"
+              title="Chief Investment Officer"
+              imageSrc="/placeholder-user.jpg"
+              imageAlt="Sarah Al Mansouri - Chief Investment Officer"
+              reverse={true}
+            />
           </div>
         </div>
       </section>
