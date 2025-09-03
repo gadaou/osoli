@@ -81,7 +81,7 @@ export default function WhoWeArePage() {
               quote="Master's in real estate and government policies, strategic market analyst with expertise in luxury residential projects and digital real estate marketing. Founder of 'Real Estate Minutes with Issa' platform and certified real estate trainer from the Dubai Land Department. He is also a lecturer in real estate diplomas at the Higher Colleges of Technology. Selected as UAE Ambassador for the International Property Show (IPS), deeply connected with the Dubai government, with extensive expertise in its strategic directions and vision."
               name="Issa Anouhi"
               title="Founder and CEO"
-              imageSrc="/1.jpg"
+              imageSrc="/1.JPG"
               imageAlt="Issa Anouhi - Founder and CEO"
             />
             
@@ -89,7 +89,7 @@ export default function WhoWeArePage() {
               quote="A distinguished entrepreneur in the economic and real estate sectors. Recognized as the top selling real estate professional in Sharjah for two consecutive years before expanding into Dubai, he holds extensive expertise in sales strategy, high stakes client negotiations, and leading multi million dirhams transactions. A certified expert in strategic training for real estate brokerages, Omar is also an accomplished consultant in company formation, particularly in the food and beverage sector. Founder of several successful businesses along Al Wasl Road and Jumeirah, Dubai."
               name="Omar Al Gadban"
               title="Founder & CEO"
-              imageSrc="/2.jpg"
+              imageSrc="/2.JPG"
               imageAlt="Omar Al Gadban - Founder & CEO"
               reverse={true}
             />
