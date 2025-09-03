@@ -1,17 +1,17 @@
 export default function PortfolioSection() {
   const portfolioItems = [
     {
-      title: "BUYING AND SELLING",
+      title: "REAL ESTATE",
       image: "/bw-dubai-residential.png",
       colorImage: "/dubai-colorful-buildings.png",
     },
     {
-      title: "LEASING AND PROPERTY MANAGEMENT",
+      title: "SMART HOME AUTOMATION",
       image: "/luxury-hotel-interior-bw.png",
       colorImage: "/luxury-hotel-interior.png",
     },
     {
-      title: "REAL ESTATE CONSULTING",
+      title: "AI & PROPTECH",
       image: "/black-and-white-fine-dining.png",
       colorImage: "/colorful-fine-dining.png",
     },
@@ -19,17 +19,17 @@ export default function PortfolioSection() {
 
   const secondRowItems = [
     {
-      title: "FOREIGN INVESTOR SERVICES",
+      title: "PROJECT MANAGEMENT",
       image: "/bw-public-markets.png",
       colorImage: "/colorful-public-markets.png",
     },
     {
-      title: "DEVELOPER DEAL MANAGEMENT",
+      title: "INTERIOR DESIGN",
       image: "/bw-private-markets.png",
       colorImage: "/colorful-private-markets.png",
     },
     {
-      title: "PROPERTY OWNERSHIP SERVICES",
+      title: "STRATEGIC INVESTMENT",
       image: "/bw-private-markets.png",
       colorImage: "/colorful-strategic-investments.png",
     },
