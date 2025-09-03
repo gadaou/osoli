@@ -11,22 +11,20 @@ export default function AboutSection() {
             />
             <div className="absolute bottom-4 sm:bottom-6 lg:bottom-8 left-4 sm:left-6 lg:left-8 text-white">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-light tracking-wider">
-                A GLOBAL
+                ESTABLISHED IN
                 <br />
-                INVESTMENT FIRM
+                DUBAI 2025
               </h2>
             </div>
           </div>
 
           <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-light tracking-wide text-gray-900 leading-tight">
-              Born in Dubai, Shamal is a diversified investment firm committed to curating extraordinary opportunities
-              for long-term growth.
+              Osoli Real Estate was established in Dubai in 2025 as a limited liability company, founded by Emirati and international experts who possess a deep understanding of the local market with a forward-looking vision.
             </h2>
 
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              From transformative destinations to strategic ventures, we invest in opportunities that deliver impact,
-              shaping industries, experiences, and value for future generations.
+              The company specializes in providing real estate brokerage services for individuals and investors, both locally and internationally, with a focus on quality, transparency, and personalized service. In a city that has transformed into a global symbol of luxury and leadership, Osoli Real Estate was born to align with Dubai's ambition and future vision.
             </p>
 
             <button className="border border-gray-800 px-6 sm:px-8 py-3 text-sm tracking-wide hover:bg-[#B17A50] hover:border-[#B17A50] hover:text-white transition-colors rounded-md">

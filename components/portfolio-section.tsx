@@ -1,17 +1,17 @@
 export default function PortfolioSection() {
   const portfolioItems = [
     {
-      title: "REAL ESTATE",
+      title: "BUYING AND SELLING",
       image: "/bw-dubai-residential.png",
       colorImage: "/dubai-colorful-buildings.png",
     },
     {
-      title: "HOSPITALITY",
+      title: "LEASING AND PROPERTY MANAGEMENT",
       image: "/luxury-hotel-interior-bw.png",
       colorImage: "/luxury-hotel-interior.png",
     },
     {
-      title: "LIFESTYLE EXPERIENCES",
+      title: "REAL ESTATE CONSULTING",
       image: "/black-and-white-fine-dining.png",
       colorImage: "/colorful-fine-dining.png",
     },
@@ -19,17 +19,17 @@ export default function PortfolioSection() {
 
   const secondRowItems = [
     {
-      title: "PUBLIC MARKETS",
+      title: "FOREIGN INVESTOR SERVICES",
       image: "/bw-public-markets.png",
       colorImage: "/colorful-public-markets.png",
     },
     {
-      title: "PRIVATE MARKETS",
+      title: "DEVELOPER DEAL MANAGEMENT",
       image: "/bw-private-markets.png",
       colorImage: "/colorful-private-markets.png",
     },
     {
-      title: "STRATEGIC INVESTMENTS",
+      title: "PROPERTY OWNERSHIP SERVICES",
       image: "/bw-private-markets.png",
       colorImage: "/colorful-strategic-investments.png",
     },
@@ -38,7 +38,7 @@ export default function PortfolioSection() {
   return (
     <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-8 sm:mb-12 lg:mb-16 text-gray-900 text-center sm:text-left">OUR PORTFOLIO</h2>
+        <h2 className="text-2xl sm:text-3xl font-light tracking-wider mb-8 sm:mb-12 lg:mb-16 text-gray-900 text-center sm:text-left">OUR CORE SERVICES</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {portfolioItems.map((item, index) => (

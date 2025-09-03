@@ -1,3 +1,5 @@
+"use client"
+
 import { ArrowUp, Linkedin, Instagram, Youtube } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
@@ -69,8 +71,18 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
-              <span className="text-sm text-center">developed by oxor.ai</span>
-              <button className="flex items-center space-x-2 text-sm hover:text-stone-200 transition-colors">
+              <Link 
+                href="https://oxor.ai/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-sm text-center hover:text-stone-200 transition-colors"
+              >
+                Developed by Oxor.ae
+              </Link>
+              <button 
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="flex items-center space-x-2 text-sm hover:text-stone-200 transition-colors"
+              >
                 <span>BACK TO TOP</span>
                 <ArrowUp className="w-4 h-4" />
               </button>

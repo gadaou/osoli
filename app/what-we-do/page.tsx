@@ -12,114 +12,168 @@ export default function WhatWeDoPage() {
           <div className="max-w-4xl">
             <h1 className="text-5xl font-light tracking-wider text-gray-900 mb-8">WHAT WE DO</h1>
             <p className="text-xl text-gray-700 leading-relaxed">
-              We invest in extraordinary opportunities across diverse sectors, creating lasting value through strategic
-              partnerships and visionary thinking.
+              Osoli Real Estate provides comprehensive real estate services and innovative solutions through our core business and strategic subsidiaries, delivering excellence across multiple sectors.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Investment Areas */}
-      <section className="py-24 bg-gray-50">
+      {/* Core Services */}
+      <section className="py-24" style={{ backgroundColor: '#B17A50' }}>
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-light tracking-wider text-gray-900 mb-16">INVESTMENT AREAS</h2>
+          <h2 className="text-3xl font-light tracking-wider text-white mb-16">OUR CORE SERVICES</h2>
 
-          <div className="space-y-16">
-            {/* Real Estate */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div className="space-y-6">
-                <h3 className="text-2xl font-light tracking-wider text-gray-900">REAL ESTATE</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  We develop and invest in premium residential, commercial, and mixed-use properties that define Dubai's
-                  skyline and contribute to the city's growth as a global destination.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  Our real estate portfolio spans luxury developments, innovative commercial spaces, and sustainable
-                  communities that enhance quality of life.
-                </p>
+          <div className="space-y-8">
+            {/* First row - 3 cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Buying and Selling */}
+              <div className="bg-white p-8 rounded-lg shadow-sm">
+                <h3 className="text-xl font-medium text-gray-900 mb-4">BUYING AND SELLING</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Marketing and selling residential and commercial properties</li>
+                  <li>• Assisting clients in selecting the optimal property</li>
+                  <li>• Feasibility studies for buyers and investors</li>
+                </ul>
               </div>
-              <div className="relative">
-                <img src="/dubai-luxury-real-estate.png" alt="Real Estate" className="w-full h-[400px] object-cover" />
+
+              {/* Leasing and Property Management */}
+              <div className="bg-white p-8 rounded-lg shadow-sm">
+                <h3 className="text-xl font-medium text-gray-900 mb-4">LEASING AND PROPERTY MANAGEMENT</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Leasing properties and managing daily operations</li>
+                  <li>• Rent collection, maintenance, and periodic reports</li>
+                </ul>
+              </div>
+
+              {/* Real Estate Consulting */}
+              <div className="bg-white p-8 rounded-lg shadow-sm">
+                <h3 className="text-xl font-medium text-gray-900 mb-4">REAL ESTATE CONSULTING</h3>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Professional market analysis</li>
+                  <li>• Project and area evaluations based on data</li>
+                  <li>• Building profitable investment portfolios</li>
+                </ul>
               </div>
             </div>
 
-            {/* Hospitality */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div className="relative order-2 lg:order-1">
-                <img src="/dubai-luxury-hotel-lobby.png" alt="Hospitality" className="w-full h-[400px] object-cover" />
-              </div>
-              <div className="space-y-6 order-1 lg:order-2">
-                <h3 className="text-2xl font-light tracking-wider text-gray-900">HOSPITALITY</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  We create exceptional hospitality experiences through luxury hotels, resorts, and dining destinations
-                  that showcase Dubai's position as a world-class tourism hub.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  Our hospitality investments focus on innovative concepts, exceptional service, and memorable
-                  experiences that attract visitors from around the globe.
-                </p>
-              </div>
-            </div>
+            {/* Second row - 2 cards centered */}
+            <div className="flex justify-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
+                {/* Foreign Investor Services */}
+                <div className="bg-white p-8 rounded-lg shadow-sm">
+                  <h3 className="text-xl font-medium text-gray-900 mb-4">FOREIGN INVESTOR SERVICES</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Property ownership for non-resident foreigners</li>
+                    <li>• After-sales services: furnishing, leasing, and resale</li>
+                  </ul>
+                </div>
 
-            {/* Lifestyle Experiences */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div className="space-y-6">
-                <h3 className="text-2xl font-light tracking-wider text-gray-900">LIFESTYLE EXPERIENCES</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  We invest in unique lifestyle concepts, entertainment venues, and cultural destinations that enrich
-                  Dubai's social fabric and create lasting memories.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  From fine dining establishments to exclusive clubs and entertainment complexes, we curate experiences
-                  that define luxury living in Dubai.
-                </p>
-              </div>
-              <div className="relative">
-                <img
-                  src="/dubai-luxury-restaurant.png"
-                  alt="Lifestyle Experiences"
-                  className="w-full h-[400px] object-cover"
-                />
+                {/* Developer Deal Management */}
+                <div className="bg-white p-8 rounded-lg shadow-sm">
+                  <h3 className="text-xl font-medium text-gray-900 mb-4">DEVELOPER DEAL MANAGEMENT</h3>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Direct negotiations with major developers</li>
+                    <li>• Offering flexible and exclusive payment plans</li>
+                    <li>• Contract follow-up and delivery management</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Investment Approach */}
+      {/* Subsidiaries */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-light tracking-wider text-gray-900 mb-8">OUR APPROACH</h2>
-            <p className="text-xl text-gray-700 leading-relaxed mb-12">
-              We take a long-term view, focusing on sustainable growth and meaningful partnerships that create value for
-              all stakeholders.
-            </p>
+          <h2 className="text-3xl font-light tracking-wider text-gray-900 mb-16 text-center">OUR SUBSIDIARIES</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16">
-              <div className="text-left space-y-4">
-                <h3 className="text-xl font-medium text-gray-900">STRATEGIC VISION</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We identify opportunities that align with Dubai's long-term development goals and global trends.
+          <div className="space-y-16">
+            {/* Smart Start */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="space-y-6">
+                <h3 className="text-2xl font-light tracking-wider text-gray-900">SMART START</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Where Innovation Meets Lifestyle. Founded in 2020, Smart Start stands as a premier innovator in home automation, redefining modern living with solutions that combine comfort, security, energy efficiency, and sustainability.
                 </p>
+                <div className="text-gray-700 space-y-2">
+                  <p><strong>Services:</strong></p>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>Smart Lighting Systems</li>
+                    <li>Climate & Air Conditioning Solutions</li>
+                    <li>Security & Surveillance</li>
+                    <li>Home Sound & Cinema Systems</li>
+                  </ul>
+                </div>
               </div>
-              <div className="text-left space-y-4">
-                <h3 className="text-xl font-medium text-gray-900">PARTNERSHIP FOCUS</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We build lasting relationships with world-class partners who share our vision and values.
-                </p>
+              <div className="relative">
+                <img src="/dubai-luxury-hotel-lobby.png" alt="Smart Start" className="w-full h-[400px] object-cover" />
               </div>
-              <div className="text-left space-y-4">
-                <h3 className="text-xl font-medium text-gray-900">SUSTAINABLE GROWTH</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We prioritize investments that deliver both financial returns and positive social impact.
-                </p>
+            </div>
+
+            {/* Construction Consultancy */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="relative order-2 lg:order-1">
+                <img src="/dubai-luxury-real-estate.png" alt="Construction Consultancy" className="w-full h-[400px] object-cover" />
               </div>
-              <div className="text-left space-y-4">
-                <h3 className="text-xl font-medium text-gray-900">OPERATIONAL EXCELLENCE</h3>
-                <p className="text-gray-700 leading-relaxed">
-                  We actively support our portfolio companies to achieve their full potential.
+              <div className="space-y-6 order-1 lg:order-2">
+                <h3 className="text-2xl font-light tracking-wider text-gray-900">CONSTRUCTION CONSULTANCY</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  A Subsidiary of Osoli Real Estate. A leading company in Engineering Consultancy and Building Plan Review, dedicated to providing precise and comprehensive solutions for project developers and investors.
                 </p>
+                <div className="text-gray-700 space-y-2">
+                  <p><strong>Services:</strong></p>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>Comprehensive Engineering Consultancy</li>
+                    <li>Building Plan Review</li>
+                    <li>Technical Risk Management</li>
+                    <li>Investor & Developer Support</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* AI Logistics */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="space-y-6">
+                <h3 className="text-2xl font-light tracking-wider text-gray-900">ARTIFICIAL INTELLIGENCE</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Smart & Sustainable Logistics Solutions. A leading global company providing smart and sustainable solutions for the transportation and logistics sector, serving over 200 clients across 18 countries.
+                </p>
+                <div className="text-gray-700 space-y-2">
+                  <p><strong>Services:</strong></p>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>Qomolo – Electric autonomous vehicles</li>
+                    <li>Q-Truck – Heavy-duty electric trucks</li>
+                    <li>WellOcean – Smart seaport solutions</li>
+                    <li>Loopo – Intelligent digital platform</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="relative">
+                <img src="/dubai-luxury-restaurant.png" alt="AI Logistics" className="w-full h-[400px] object-cover" />
+              </div>
+            </div>
+
+            {/* Business Setup */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="relative order-2 lg:order-1">
+                <img src="/dubai-office-interior.png" alt="Business Setup" className="w-full h-[400px] object-cover" />
+              </div>
+              <div className="space-y-6 order-1 lg:order-2">
+                <h3 className="text-2xl font-light tracking-wider text-gray-900">BUSINESS SETUP & CORPORATE ADVISORY</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  A Subsidiary of Osoli Real Estate. We approach business setup as a complete strategic project, providing end-to-end consultancy that simplifies company establishment in today's competitive markets.
+                </p>
+                <div className="text-gray-700 space-y-2">
+                  <p><strong>Services:</strong></p>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>Feasibility & Market Entry Studies</li>
+                    <li>Company Formation & Licensing</li>
+                    <li>Legal & Compliance Advisory</li>
+                    <li>Financial & Tax Planning</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

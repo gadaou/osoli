@@ -14,9 +14,9 @@ export default function HeroSection() {
 
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-light tracking-wider mb-6 sm:mb-8 leading-tight px-4">
-          WE INVEST IN THE
+          OSOLI REAL ESTATE
           <br className="hidden sm:block" />
-          EXTRAORDINARY
+          A VISION THAT BUILDS THE FUTURE
         </h1>
       </div>
 

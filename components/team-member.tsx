@@ -26,7 +26,7 @@ export default function TeamMember({ quote, name, title, imageSrc, imageAlt, rev
         <img 
           src={imageSrc} 
           alt={imageAlt} 
-          className="w-full h-[500px] object-cover rounded-lg"
+          className="w-full h-[500px] object-contain"
         />
       </div>
     </div>
